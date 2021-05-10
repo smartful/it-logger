@@ -1,5 +1,6 @@
 import {
   GET_LOGS,
+  ADD_LOG,
   SET_LOADING,
   LOGS_ERROR
 } from '../actions/types';
@@ -18,7 +19,13 @@ export default (state = initialState, action) => {
         ...state,
         logs: action.payload,
         loading: false
-      }
+      };
+    case ADD_LOG:
+      return {
+        ...state,
+        logs: [...state.logs, action.payload],
+        loading: false
+      };
     case SET_LOADING:
       return {
         ...state,
