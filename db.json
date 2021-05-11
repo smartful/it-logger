@@ -29,11 +29,11 @@
       "date": "2019-05-31T19:57:35.544Z"
     },
     {
+      "id": 5,
       "message": "Add new network card on station 007",
-      "attention": false,
+      "attention": true,
       "tech": "Sara Wilson",
-      "date": "2021-05-10T23:55:14.758Z",
-      "id": 5
+      "date": "2021-05-11T00:46:25.752Z"
     }
   ],
   "techs": [
